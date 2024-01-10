@@ -111,7 +111,7 @@ in
             auto-optimise-store = true;
           });
         } // (mapAttrsRecursive (_: mkDefault) {
-        linkInputs = true;
+        #linkInputs = true;
         #generateNixPathFromInputs = true;
         #generateRegistryFromInputs = true;
       });
