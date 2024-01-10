@@ -113,7 +113,7 @@ in
         } // (mapAttrsRecursive (_: mkDefault) {
         linkInputs = true;
         #generateNixPathFromInputs = true;
-        generateRegistryFromInputs = true;
+        #generateRegistryFromInputs = true;
       });
     })
   ];
